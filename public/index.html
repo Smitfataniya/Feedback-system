@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Feedback Platform</p>
+        <h1>Student Feedback System</h1>
+        <p class="subtext">Share your thoughts, suggestions, and praise in a simple feedback board.</p>
+      </div>
+    </header>
+
+    <section class="card form-card">
+      <h2>Leave Feedback</h2>
+      <form id="feedbackForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" autocomplete="name">
+
+        <label for="message">Feedback</label>
+        <textarea id="message" rows="5" placeholder="Enter your feedback"></textarea>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+      <div id="status" class="status"></div>
+    </section>
+
+    <section class="feedback-section">
+      <div class="section-header">
+        <h2>All Feedback</h2>
+        <p>Recent responses from students appear below.</p>
+      </div>
+      <div id="feedbackList" class="feedback-grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built for easy class feedback collection.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
