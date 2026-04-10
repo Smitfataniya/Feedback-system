@@ -8,7 +8,7 @@
 🎯 Setup Instructions
 
 1. Clone repo
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/Smitfataniya/Feedback-system.git
 
 2. Install dependencies
 npm install
